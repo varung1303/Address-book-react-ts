@@ -1,0 +1,67 @@
+$ContactFont: "Calibri Light", "Gill Sans", "Open Sans", Geneva, Helvetica,
+  Arial, sans-serif;
+
+.contact-card-item {
+  transition-duration: 0.5s;
+  list-style-type: none;
+  border: 1px solid black;
+}
+
+.contact-list-item:hover {
+  background-color: #cee7f2;
+  color: black;
+}
+.contactDisplay {
+  font-size: 18px;
+  font-family: $ContactFont;
+
+  color: #565c5e;
+
+  outline: none;
+  font-size-adjust: 2;
+  text-decoration: none;
+  font-weight: 700;
+}
+.main-name {
+  font-size: 40px;
+  font-family: $ContactFont;
+  text-decoration: none;
+  color: #4f4f4f;
+  cursor: pointer;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.border-style {
+  padding-left: 16px;
+  font-weight: 600;
+}
+
+.contact-item {
+  margin: 0;
+  padding: 0;
+}
+.hide {
+  display: none;
+}
+.display-picture {
+  width: 100px;
+  height: 100px;
+}
+.contact-card-image-div {
+  float: left;
+  height: 100px;
+}
+.contact-table {
+  margin-left: 20px;
+  float: left;
+  overflow: auto;
+  padding: 5px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-column-gap: 3px;
+  grid-row-gap: 5px;
+  width: 66%;
+  overflow: auto;
+}

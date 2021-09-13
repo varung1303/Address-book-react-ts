@@ -1,0 +1,40 @@
+$LetterFont: "Calibri Light", "Gill Sans", "Open Sans", Geneva, Helvetica,
+Arial, sans-serif;
+
+
+.letter-option {
+  display: none;
+}
+.letter-label {
+  border: 1px solid black;
+
+  font-family: $LetterFont;
+  width: 93%;
+
+  font-size: 40px;
+  display: block;
+  text-decoration: none;
+  color: #4f4f4f;
+  cursor: pointer;
+  font-weight: 700;
+  text-align: center;
+}
+.letter-label:hover {
+  background-color: #cee7f2;
+  color: black;
+}
+
+.letter-option:checked + .letter-label {
+  @extend .letter-label:hover;
+}
+.hide {
+  display: none;
+}
+.alphabet-filter {
+  float: left;
+  width: 5%;
+  height: 400px;
+  overflow: auto;
+  margin-left: 1.3%;
+  
+}
